@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>time table</title>
+            <style type="text/css">
+                h1{
+                    text-align: center;
+                    color: blue;
+                }
+                table,tr,th,td{
+                    font-size: 20px;
+                    padding: 20px;
+                    border: 1px solid black;
+                }
+                table{
+                    text-align: center;
+                    margin-left: 200px;
+                    margin-top: 50px;
+                }
+                ::selection{
+                    color: red;
+                    background-color: lightgreen;
+                }
+                th{
+                    background-color: yellow;
+                    font-weight: bold;
+                }
+                td:nth-child(odd){
+                    background-color: lightpink;
+                }
+                td:nth-child(even){
+                    background-color: lightskyblue;
+                }
+            </style>
+    </head>
+<body>
+    <h1> Time Table </h1>
+        <table>
+            <tr>
+                <th>Time</th> 
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                <td>09:10 am to 10:10 am</td>
+                <td>WT Lab</td>
+                <td>MATHS</td>
+                <td>SGP Lab</td>
+                <td>HSS</td>
+                <td>DSA</td>
+                <td rowspan="2">Elective</td>
+            </tr>
+            <tr>
+                <td>10:10 am to 11:10 am</td>
+                <td>WT Lab</td>
+                <td>DSA</td>
+                <td>SGP Lab</td>
+                <td>HSS</td>
+                <td>DBMS</td>
+            </tr>
+            <tr>
+                <td>11:10 am to 12:10 pm</td>
+                <td colspan="6" style="text-align: center;"> Lunch Break </td>
+            </tr>
+            <tr>
+                <td>12:10 pm to 01:10 pm</td>
+                <td>CAMI</td>
+                <td>DSA Lab</td>
+                <td>CAMI</td>
+                <td>DBMS</td>
+                <td>CAMI Lab</td>
+                <td rowspan="2">Elective</td>
+            </tr>
+            <tr>
+                <td>01:10 pm to 02:10 pm</td>
+                <td>DBMS</td>
+                <td>DSA Lab</td>
+                <td>DSA</td>
+                <td>Assignment Practice</td>
+                <td>CAMI Lab</td>
+            </tr>
+            <tr>
+                <td>02:10 pm to 02:20 pm</td>
+                <td colspan="6">Break</td>
+            </tr>
+            <tr>
+                <td>02:20 pm to 03:20 pm</td>
+                <td>MATHS</td>
+                <td>CAMI</td>
+                <td>DBMS</td>
+                <td>DBMS Lab</td>
+                <td>MATHS</td>
+                <td rowspan="2">Elective</td>
+            </tr>
+            <tr>
+                <td>03:20 pm to 04:20 pm</td>
+                <td>DSA</td>
+                <td>Student Counseling</td>
+                <td>MATHS</td>
+                <td>DBMS Lab</td>
+                <td>CAMI</td>
+            </tr>
+        </table>
+</body>
+</html>
